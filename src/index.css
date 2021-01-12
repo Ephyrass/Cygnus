@@ -317,9 +317,11 @@ body {
 }
 
 .about-para div {
+  opacity: 1;
   padding-top: 5%;
   flex-basis: 25%;
   min-width: 280px;
+  transition: opacity 1s;
 }
 
 .about-para p {
@@ -1080,4 +1082,12 @@ footer {
     width: 270px;
     transition: width ease-in-out 0.3s;
   }
+}
+
+.animate__animated .animate__fadeInLeft .one {
+  animation-delay: 600ms;
+}
+
+.animate__animated .animate__fadeInLeft .two {
+  animation-delay: 900ms;
 }
