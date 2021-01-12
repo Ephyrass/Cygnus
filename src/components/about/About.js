@@ -1,9 +1,9 @@
 import React from "react";
 import ScrollAnimation from "react-animate-on-scroll";
-import "animate.css/animate.min.css";
 import Code from "../../images/code.svg";
 import Hand from "../../images/Hand.svg";
 import Biz from "../../images/biz.svg";
+import "animate.css/animate.min.css";
 
 const About = () => {
   return (

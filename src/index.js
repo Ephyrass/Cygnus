@@ -5,6 +5,7 @@ import Header from "./components/home/Header";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import Portfolio from "./components/portfolio/Portfolio";
+import "animate.css";
 import "./index.css";
 
 ReactDOM.render(
