@@ -4,6 +4,10 @@ import webagency from "../../images/webAgenc.png";
 import webagencyResponsive from "../../images/WebAgencyResponsive.png";
 import DevCo from "../../images/DevCo.png";
 import DevCoRes from "../../images/DevCoRes.png";
+import Sanofi from "../../images/Sanofi.png";
+import SanofiResponsive from "../../images/SanofiResponsive.png";
+import StreetBoutique from "../../images/StreetBoutique.png";
+import StreetBoutiqueResponsive from "../../images/StreetBoutiqueResponsive.png";
 
 const Portfolio = () => {
   const items = [
@@ -22,11 +26,18 @@ const Portfolio = () => {
       way: 1,
     },
     {
-      image1: DevCo,
-      image2: DevCoRes,
-      title: "Shop Chop",
+      image1: Sanofi,
+      image2: SanofiResponsive,
+      title: "Sanofi",
       subTitle: "E-Commerce",
       way: 0,
+    },
+    {
+      image1: StreetBoutique,
+      image2: StreetBoutiqueResponsive,
+      title: "Street Boutique",
+      subTitle: "E-Commerce",
+      way: 1,
     },
   ];
 
