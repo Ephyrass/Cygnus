@@ -42,10 +42,10 @@ const About = () => {
           <div>
             <img src={Hand} alt='icone Code' />
             <p style={{ paddingBottom: "1em" }}>
-              <strong>Accompagnement digitale</strong>
+              <strong>Accompagnement digital</strong>
             </p>
             <p>
-              Optimiser votre stratégie digitale avec notre étude des besoins,
+              Optimisez votre stratégie digitale avec notre étude des besoins,
               recherche, réflexion, analyse et cahier des charges, nom de
               domaine et hébergement, recommandations et plan de stratégie
               digitale.
