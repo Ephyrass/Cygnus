@@ -1007,11 +1007,13 @@ footer {
   }
   .logo {
     font-size: 3em;
-    top: 35px;
+    top: 5%;
   }
 
   .title h1 {
-    font-size: 40px;
+    padding: 10% 0;
+    font-size: 2.5em;
+    height: 2em;
   }
 
   .title-para {
@@ -1105,4 +1107,20 @@ footer {
 
 .animate__animated .animate__fadeInLeft .two {
   animation-delay: 900ms;
+}
+
+@media screen and (max-width: 400px) {
+  .title h1 {
+    padding: 30% 0 0 0;
+    font-size: 2em;
+    height: 2em;
+  }
+  .message {
+    width: 95%;
+  }
+
+  .title-para {
+    font-size: 18px;
+    margin: 15% auto;
+  }
 }
