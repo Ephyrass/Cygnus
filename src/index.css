@@ -1006,9 +1006,25 @@ footer {
     font-size: 18px;
   }
   .logo {
-    font-size: 4em;
+    font-size: 3em;
+    top: 35px;
   }
 
+  .title h1 {
+    font-size: 40px;
+  }
+
+  .title-para {
+    margin: 10% auto;
+    font-size: 20px;
+    width: 90%;
+    line-height: 1.3em;
+  }
+
+  .about {
+    background-color: #ffffff;
+    margin-bottom: 30%;
+  }
   .middle {
     height: 20%;
     min-height: 110px;
@@ -1031,9 +1047,6 @@ footer {
     font-size: 15px;
   }
 
-  .title-para {
-    width: 70%;
-  }
   .pair-left {
     width: 40%;
     min-height: 0;
@@ -1061,20 +1074,17 @@ footer {
   }
   .about-para div {
     flex-basis: 95%;
-    margin: 0 2%;
+    margin: 3% 2%;
   }
 
   .message {
-    width: 250px;
+    width: 300px;
   }
 
   form {
     min-width: 280px;
   }
 
-  .message {
-    width: 200px;
-  }
   .message:focus {
     width: 250px;
     transition: all 0.5s;

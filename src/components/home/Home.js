@@ -27,8 +27,8 @@ const Home = () => {
           <br />
         </h1>
         <p className='title-para'>
-          Nous accompagnons nos clients dans la création de site et
-          d'application web de l'étude jusqu'au référencement.
+          Nous accompagnons nos clients dans la création de sites et
+          d'applications web de l'étude jusqu'au référencement.
         </p>
         <div className='button'>
           <Link to='about' spy={true} smooth={true} duration={1000}>
